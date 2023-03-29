@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+    font-family: 'Phudu', cursive;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(19, 140, 240);
+}
+
+/* ------------------------------------NAVEGADOR------------------------------------------------------------*/
+
+#navegador {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    background: linear-gradient(to bottom right, rgb(64, 118, 143), rgb(186, 219, 247)); 
+    text-align: right;
+}
+
+.boton_navegador {
+    font-family: 'Phudu', cursive;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 10px;
+    padding: .375rem .75rem;
+    border: 1px solid rgb(246, 246, 247);
+    border-radius: .25rem;
+    color: rgb(243, 249, 252);
+    background-color: rgb(64, 118, 143);
+    transition: color .15s ease-in-out,
+        background-color .15s ease-in-out;
+  }
+  
+  .boton_navegador:hover, .boton_navegador:active, .boton_navegador:focus {
+    color: rgb(64, 118, 143);
+    background-color: #f1f3f5;
+  }
+
+/* ------------------------------SECCION INFO PERSONAL------------------------------------------------------*/
+
+#section_info_personal {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+#div_imagen_perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: auto;
+    width: 30%;
+    float: left;
+    margin: 0;
+}
+
+#img_corona {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+#img_perfil {
+    height: 250px;
+    width: 250px;
+    border-style: double;
+}
+
+#div_info_personal {
+    height: auto;
+    width: 70%;
+    float: right;
+    margin: 0;
+}
+
+#div_nombre_titulo {
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: 10px;
+}
+
+#h1_nombre {
+    color: transparent;
+    font-size: 70px;
+    font-family: 'Phudu', cursive;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(32, 35, 241);
+    margin: 20px;
+}
+
+#h3_titulo {
+    color: rgb(32, 35, 241);
+    font-size: 45px;
+    font-family: 'Phudu', cursive;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px;
+}
+
+#img_cohete {
+    height: 50px;
+    width: 50px;
+}
+
+.imagen_info_personal {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* ---------------------------SECCION EXPERIENCIAS----------------------------------------------------------*/
+
+#section_experiencias {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.div_experiencias_titulo {
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0;
+}
+
+.h1_experiencias_titulo {
+    color: transparent;
+    font-size: 70px;
+    font-family: 'Phudu', cursive;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(32, 35, 241);
+    margin: 10px;
+}
+
+#imagen_experiencias_titulo {
+    width: 60%;
+    height: 50%;
+}
+
+.img_experiencias {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.h3_experiencias {
+    color: rgb(32, 35, 241);
+    margin-left: 75px;
+    font-size: 20px;
+}
+
+.p_experiencias {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+/* ---------------------------SECCION HABILIDADES-----------------------------------------------------------*/
+
+
+#section_habilidades {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 50px;
+} 
+
+#div_habilidades_titulo {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+#h1_habilidades_titulo {
+    color: transparent;
+    font-size: 60px;
+    font-family: 'Phudu', cursive;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(32, 35, 241);
+    margin: 10px;
+}
+
+.div_habilidades_imagenes {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 25%;
+    float: left;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.img_habilidades {
+    height: 60%;
+    width: 60%;
+    margin: 10px;
+}
+
+#div_habilidades {
+    height: auto;
+    width: 50%;
+    float: left;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.img_icono_habilidades {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.h3_habilidades {
+    color: rgb(32, 35, 241);
+    font-size: 20px;
+}
+
+.p_habilidades {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* ------------------------------PIE DE PAGINA-------------------------------------------------------------*/
+
+#div_pie_pagina {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to top right, rgb(64, 118, 143), rgb(186, 219, 247));
+    text-align: center;
+    margin-top: 75px;
+}
+
+.boton_red_social {
+    width: 40px;  
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+
+
+/* -----------------------------------------------------------------------------------------------------*/
+/* LO HACEMOS RESPONSIVO PARA PANTALLAS MENORES A 700px */
+/* -----------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 700px) {
+
+    #navegador {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        background: linear-gradient(to bottom right, rgb(64, 118, 143), rgb(186, 219, 247)); 
+        text-align: center;
+    }
+
+/* -----------------------------SECCION INFO PERSONAL - 700px-----------------------------------------------*/
+
+    #div_imagen_perfil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+      
+    #div_info_personal {
+        height: auto;
+        width: 100%;
+        float: right;
+        margin: 0;
+    }
+    
+    #h1_nombre {
+        color: transparent;
+        font-size: 70px;
+        font-family: 'Phudu', cursive;
+        -moz-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: rgb(32, 35, 241);
+        margin: 20px;
+    }
+    
+    #h3_titulo {
+        color: rgb(32, 35, 241);
+        font-size: 45px;
+        font-family: 'Phudu', cursive;
+        font-family: 'Rubik', sans-serif;
+        margin: 20px;
+    }
+    
+    #img_cohete {
+        display: none;
+        height: 50px;
+        width: 50px;
+    }
+    
+/* -------------------------------SECCION EXPERIENCIAS - 700px----------------------------------------------*/
+   
+    .div_experiencias_titulo {
+        height: auto;
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .h1_experiencias_titulo {
+        color: transparent;
+        font-size: 50px;
+        font-family: 'Phudu', cursive;
+        -moz-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: rgb(32, 35, 241);
+        margin: 10px;
+    }
+    
+/* ---------------------------SECCION HABILIDADES PANTALLA - 700px-----------------------------------------*/   
+         
+    #h1_habilidades_titulo {
+        color: transparent;
+        font-size: 60px;
+        font-family: 'Phudu', cursive;
+        -moz-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: rgb(32, 35, 241);
+        margin: 10px;
+    }
+    
+    .div_habilidades_imagenes {
+        display: none;
+        flex-direction: column;
+        height: auto;
+        width: 25%;
+        float: left;
+        align-items: center;
+        background-color: aliceblue;
+        margin: 0;
+    }
+        
+    #div_habilidades {
+        height: auto;
+        width: 100%;
+        float: left;
+        background-color: aliceblue;
+        margin: 0;
+    }
+      
+
+}
+
+
+  
+
